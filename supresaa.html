@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Primeiro Ano</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAFAFA;
+            /* Off-white muito suave */
+            color: #333;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Animação suave de entrada */
+        .fade-in {
+            animation: fadeIn 2s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-stone-50 text-stone-800 antialiased selection:bg-stone-200">
+
+    <section class="min-h-[85vh] flex flex-col items-center justify-center px-6 text-center fade-in">
+        <span class="text-xs md:text-sm tracking-[0.3em] uppercase text-stone-500 mb-8">19 de Março de 2025</span>
+
+        <h1 class="text-5xl md:text-7xl font-serif italic mb-8 text-stone-900 leading-tight">
+            Capítulo <br class="md:hidden" /> Um.
+        </h1>
+
+        <p class="max-w-lg mx-auto text-lg md:text-xl text-stone-600 font-light leading-relaxed">
+            Um ano de conversas longas, rotinas dividida e a certeza silenciosa de que encontrei o meu lugar.
+        </p>
+    </section>
+
+    <section class="py-24 px-6 border-t border-stone-200">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-serif mb-8 text-stone-900 text-center md:text-left">Nós</h2>
+            <div class="space-y-6 text-stone-600 font-light leading-relaxed text-justify md:text-left">
+                <p>
+                    Lembra da primeira vez que a gente saiu juntos? No Iguatemi, onde nós dois estávamos nervosos, com
+                    vergonha, mas, ainda assim, por mais que tenha sido algo que na época não foi de todo bom por minha
+                    culpa, foi o início de um sentimento que nunca mais ia sair da minha vida. O amor por você se formou
+                    ali e escalou para níveis que não consigo nem mensurar hoje em dia. Não seria nada sem você, meu
+                    amor. Ali foi o início de tudo, sem contar nos stories sobre Resident Evil, etc. Não posso negar
+                    que você era minha crush. E foi ali que eu percebi que, por mais que eu achasse que ficar na zona de
+                    conforto seria melhor, ao seu lado, é muito melhor.
+                </p>
+                <p>
+                    Nesses 365 dias, não foram só os momentos grandiosos que me marcaram. Foram as coisas simples da
+                    nossa vida que me fazem me apaixonar por você cada dia mais. Esses dias estávamos simplesmente fazendo
+                    brownie e pipoca, e aquilo foi especial. Eu me senti conectado com você. Por mais que venhamos de um
+                    período turbulento, isso tudo vai passar e ficar estável novamente. Eu te amo muito, meu amor, e vou
+                    lutar até a minha morte por nós, por você.
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <section class="py-24 bg-stone-100">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-serif mb-16 text-center text-stone-900">Nossas Memórias</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
+
+                <div class="flex flex-col gap-4">
+                    <div class="aspect-[4/5] bg-stone-200 rounded-sm overflow-hidden flex items-center justify-center border border-stone-300">
+                        <img src="/image/first.jpeg" alt="Nossa primeira vez em 'casa'" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-sm text-stone-500 italic text-center">Nossa primeira vez em "casa".</p>
+                </div>
+
+                <div class="flex flex-col gap-4 md:pt-16">
+                    <div class="aspect-[4/5] bg-stone-200 rounded-sm overflow-hidden flex items-center justify-center border border-stone-300">
+                        <img src="/image/CHICAO2.jpeg" alt="Nosso filho" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-sm text-stone-500 italic text-center">Nosso filho.</p>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <div class="aspect-[4/5] bg-stone-200 rounded-sm overflow-hidden flex items-center justify-center border border-stone-300">
+                        <img src="/image/banhooo.jpeg" alt="Nosso primeiro banho juntos" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-sm text-stone-500 italic text-center">Nosso primeiro banho juntos.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-serif italic mb-8 text-stone-900">E que o fim seja a morte.</h2>
+        <p class="text-stone-500 tracking-wide text-sm uppercase">Com todo o meu amor, Seu Marido.</p>
+    </section>
+
+</body>
+
+</html>
